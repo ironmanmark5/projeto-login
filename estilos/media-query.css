@@ -16,7 +16,7 @@ Grandes telas: acima de 1366px
     
     section#login{
         width: 80vw;
-        height: 280px;
+        height: 380px;
     }
 
     section#login > div#imagem {
@@ -42,14 +42,18 @@ Grandes telas: acima de 1366px
     }
 
     section#login > div#imagem {
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
     }
 
     section#login > div#formulario {
-        float: right;
+        float: left;
         width: 50%;
+    }
+
+    section#login > div#imagem {
+        background-position: top left;
     }
 
     div#formulario > h1 {
